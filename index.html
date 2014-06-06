@@ -3,18 +3,120 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Foundation Starter | CHANGE ME CHANGE ME CHANGE ME</title>
+        <title>Austin Bike Farm</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--links-->
         <link rel="stylesheet" href="./css/style.css">
+        <link href='http://fonts.googleapis.com/css?family=Nova+Flat' rel='stylesheet' type='text/css'>
+        <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     </head>
+
     <body>
+    <div class="contain-to-grid sticky">
+      <nav class="top-bar" data-topbar>
+        <ul class="title-area">
+          <li class="name">
+            <h1><a href="#">buy.sell.trade</a></h1>
+          </li>
+           <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+          <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+        </ul>
 
-      <!-- PUT YOUR HTML HERE -->
+        <section class="top-bar-section">
+          <!-- Right Nav Section -->
+          <ul class="right">
+            <li class="active"><a href="#contact">contact</a></li>
+            <li class="has-dropdown">
+              <a href="#">links</a>
+              <ul class="dropdown">
+                <li><a href="#">Events</a></li>
+                <li><a href="#" data-reveal-id="myModal">Guestbook</a>
+                  <!-- <div id="myModal" class="reveal-modal" data-reveal>
+                    <h2>Comments</h2>
+                      <p class="lead"><iframe id="f2da1f7b4" name="ffc039ec" scrolling="no" title="Facebook Social Plugin" class="fb_ltr" src="https://www.facebook.com/plugins/comments.php?api_key=&amp;channel_url=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter%2FV80PAcvrynR.js%3Fversion%3D41%23cb%3Df88b93374%26domain%3Dwww.austinbikefarm.com%26origin%3Dhttp%253A%252F%252Fwww.austinbikefarm.com%252Ff1c6d1a3bc%26relation%3Dparent.parent&amp;colorscheme=dark&amp;href=http%3A%2F%2Fwww.austinbikefarm.com&amp;locale=en_US&amp;numposts=8&amp;sdk=joey&amp;skin=dark&amp;width=470" style="border: none; overflow: hidden; height: 1007px; width: 470px;"></iframe></p>
+                    <a class="close-reveal-modal">&#215;</a>
+                  </div> -->
+                </li>
+                <li><a href="#">Pricing</a></li>
+              </ul>
+            </li>
+          </ul>
 
-      <!-- body goes here -->
+          <!-- Left Nav Section -->
+          <ul class="left">
+            <li class="has-form">
+              <div class="row collapse">
+                <div class="large-8 small-9 columns">
+                  <input type="text" placeholder="stock">
+                </div>
+                <div class="large-4 small-3 columns">
+                  <a href="#" class="alert button expand">search</a>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <a href="#" data-reveal-id="myModal">currently in stock</a>
+          <div id="myModal" class="reveal-modal" data-reveal>
+            <h2>Currently in stock</h2>
+            <p class="lead">
+              <ul class="small-block-grid-3 large-block-grid-6 text-center">
+                <li><img class="th" src="http://www.austinbikefarm.com/images/logo_rockymountain.png"></li>
+                <li><img class="th" src="http://www.austinbikefarm.com/images/redline_logo.gif"></li>
+                <li><img class="th" src="http://www.austinbikefarm.com/images/logo_transition.png"></li>
+                <li><img class="th" src="http://www.austinbikefarm.com/images/logo_origin8.png"></li>
+                <li><img class="th" src="http://www.austinbikefarm.com/images/easternbikeslogo2.gif"></li>
+                <li><img class="th" src="http://www.austinbikefarm.com/images/logo_sun.png"></li>
+              </ul>
+            </p>
+            <a class="close-reveal-modal">&#215;</a>
+          </div>
+        </section>
+      </nav>
+    </div>
+
+    <!-- <div class="row">
+      <div class="small-11 small-centered columns"><img src="../img/bike_guy_edit.jpg">
+      </div>
+    </div> -->
+
+    <section class="wrapper">
+      <div class="bike-guy"></div>
+      <div class="brand"></div>
+    </section>
+
+    <section class="brand">
+      <div class="brand-name"><h1>Austin Bike Farm</h1></div>
+    </section>
+      <!-- <ul class="example-orbit" data-orbit>
+        <li>
+          <img src="../assets/img/examples/satelite-orbit.jpg" alt="slide 1" />
+          <div class="orbit-caption">
+            Caption One.
+          </div>
+        </li>
+        <li class="active">
+          <img src="../assets/img/examples/andromeda-orbit.jpg" alt="slide 2" />
+          <div class="orbit-caption">
+            Caption Two.
+          </div>
+        </li>
+        <li>
+          <img src="../assets/img/examples/launch-orbit.jpg" alt="slide 3" />
+          <div class="orbit-caption">
+            Caption Three.
+          </div>
+        </li>
+      </ul>
+ -->
+      <section class="footer">
+       <a id="contact">6516 Shirley Ave&nbsp;Austin,&nbsp;TX&nbsp;78752</a>
+      </section>
+
+
       <script type="text/javascript" src="./js/jquery.min.js"></script>
       <script type="text/javascript" src="./js/foundation.min.js"></script>
       <script type="text/javascript">$(document).foundation();</script>
     </body>
+
 </html>

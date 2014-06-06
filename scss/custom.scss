@@ -1,0 +1,28 @@
+.wrapper{
+  height: 20em;
+}
+
+  .bike-guy{
+    background-image:url("../img/bike_guy_edit.jpg");
+    height: 20em;
+    width: 100%;
+    border-bottom: 1px solid black;
+  }
+
+.brand{
+  height: 6em;
+  padding: 0 10px 0 10px;
+}
+
+  .th{
+    width: 80%;
+    margin: 20px;
+  }
+
+.footer a {
+  width: 100%;
+  margin: 0;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+}
