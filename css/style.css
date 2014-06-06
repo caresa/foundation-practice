@@ -6675,24 +6675,25 @@ th.hide-for-touch {
 .wrapper {
   height: 20em; }
 
-/* line 5, ../scss/custom.scss */
-.bike-guy {
-  background-image: url("../img/bike_guy_edit.jpg");
-  height: 20em;
-  width: 100%;
-  border-bottom: 1px solid black; }
-
 /* line 12, ../scss/custom.scss */
 .brand {
   height: 6em;
   padding: 0 10px 0 10px; }
 
 /* line 17, ../scss/custom.scss */
+h1 {
+  font-size: 3.75em; }
+
+/* line 21, ../scss/custom.scss */
 .th {
   width: 80%;
   margin: 20px; }
 
-/* line 22, ../scss/custom.scss */
+/* line 26, ../scss/custom.scss */
+.slider {
+  margin-top: 10em; }
+
+/* line 31, ../scss/custom.scss */
 .footer a {
   width: 100%;
   margin: 0;

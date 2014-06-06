@@ -3,10 +3,10 @@
 }
 
   .bike-guy{
-    background-image:url("../img/bike_guy_edit.jpg");
-    height: 20em;
-    width: 100%;
-    border-bottom: 1px solid black;
+    // background-image:url("../img/bike_guy_edit.jpg");
+    // width: 1000px;
+    // height: 376px;
+    // border: 2px solid black;
   }
 
 .brand{
@@ -14,10 +14,19 @@
   padding: 0 10px 0 10px;
 }
 
+   h1{
+    font-size: 3.75em;
+  }
+
   .th{
     width: 80%;
     margin: 20px;
   }
+
+.slider{
+  margin-top: 10em;
+}
+
 
 .footer a {
   width: 100%;
