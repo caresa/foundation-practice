@@ -1,37 +1,137 @@
-.wrapper{
-  height: 20em;
-}
+// body:after {
+//     content:"";
+//     position: absolute;
+//     z-index: -1;
+//     top: 0;
+//     bottom: 0;
+//     left: 50%;
+//     border-left: 2px solid #008db7; /*change these values to suit your liking*/
+// }
 
-  .bike-guy{
-    // background-image:url("../img/bike_guy_edit.jpg");
-    // width: 1000px;
-    // height: 376px;
-    // border: 2px solid black;
-  }
+// .sprite {
+//   background: url('imgs/Screen Shot 2014-06-08 at 4.57.22 PM.png') no-repeat 0 0;
+//   width: 0;
+//   height: 0;
+// }
 
-.brand{
-  height: 6em;
-  padding: 0 10px 0 10px;
-}
-
-   h1{
-    font-size: 3.75em;
-  }
-
-  .th{
-    width: 80%;
-    margin: 20px;
-  }
-
-.slider{
-  margin-top: 10em;
+.name h1 a{
+  font-size: 30px;
 }
 
 
-.footer a {
-  width: 100%;
-  margin: 0;
-  position: fixed;
-  bottom: 0;
+hr {
+  display: block; height: 1px;
+  border: 0; border-top: 1px solid #0078a0;
+  margin: 1em 0; padding: 0;
+}
+
+.orbit-container{
+  height: 360px;
+  width: auto;
+}
+
+.row .about{
+  margin-top: 15px;
+  font-size: 1.5em;
+}
+
+.social {
+  padding-left: 360px;
+}
+
+.social i{
+  color: #0078a0;
+}
+
+.row .you-tube{
+  margin-top: 20px;
+  // -webkit-box-shadow: 0 8px 6px -6px black;
+  // -moz-box-shadow: 0 8px 6px -6px black;
+  // -box-shadow: 0 8px 6px -6px black;
+}
+
+.map{
+  height: 368px;
+  // -webkit-box-shadow: 0 8px 6px -6px black;
+  // -moz-box-shadow: 0 8px 6px -6px black;
+  // -box-shadow: 0 8px 6px -6px black;
+}
+
+.row .stock{
+  height: 5em;
+  margin-top: 3em;
+  box-sizing: border-box;
+}
+
+.rocky img{
+  max-height: 100%;
+  float: left;
+  margin-right: 1.5px;
+  border-radius: 3px;
+}
+
+.transisition img{
+  max-height: 100%;
+  float: left;
+  margin-right: 1.5px;
+  border-radius: 3px;
+}
+
+.row .stock img {
+    -webkit-filter: grayscale(100%);
+       -moz-filter: grayscale(100%);
+         -o-filter: grayscale(100%);
+        -ms-filter: grayscale(100%);
+            filter: grayscale(100%);
+}
+
+.row .stock img:hover{
+  filter: none;
+  -webkit-filter: grayscale(0%);
+}
+
+.row .stock-two img {
+    -webkit-filter: grayscale(100%);
+       -moz-filter: grayscale(100%);
+         -o-filter: grayscale(100%);
+        -ms-filter: grayscale(100%);
+            filter: grayscale(100%);
+}
+
+.row .stock-two img:hover{
+  filter: none;
+  -webkit-filter: grayscale(0%);
+}
+
+.redline img{
+  max-height: 100%;
+  float: left;
+  margin-right: 1.5px;
+  border-radius: 3px;
+}
+
+.origin img{
+  max-height: 100%;
+  float: left;
+  margin-right: 1.5px;
+  border-radius: 3px;
+}
+
+.eastern img{
+  max-height: 100%;
+  float: left;
+  border-radius: 3px;
+}
+
+.sun img{
+  max-height: 100%;
+  margin-top: 8px;
+  float: left;
+  border-radius: 3px;
+}
+
+.address{
+  color: #0078a0;
+  padding-top: 30px;
   text-align: center;
 }
