@@ -6788,3 +6788,13 @@ hr {
   color: #0078a0;
   padding-top: 30px;
   text-align: center; }
+
+/* line 139, ../scss/custom.scss */
+table {
+  margin: 0 auto; }
+
+/* line 143, ../scss/custom.scss */
+.title {
+  text-align: center;
+  font-size: 25px;
+  background: #0078a0; }
